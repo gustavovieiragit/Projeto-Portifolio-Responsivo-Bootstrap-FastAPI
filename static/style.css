@@ -78,3 +78,41 @@ html, body{
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
     color: #aa7444;
 }
+
+#main {
+    margin-left: 300px;
+}
+
+section#Inicio {
+    background-image: url(./img/fundoport.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+section#Inicio h2{
+    font-size: 6rem;
+
+}
+
+section#Inicio span#subtitle{
+    margin-right: 8rem;
+    font-size: 1.5rem;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 10px #000000;
+}
+
+section#Inicio div#arraste{
+    width: 9rem;
+}
+
+section#Inicio div#arraste a{
+    text-decoration: none;
+    color: #ffffff;
+}
