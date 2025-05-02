@@ -116,3 +116,41 @@ section#Inicio div#arraste a{
     text-decoration: none;
     color: #ffffff;
 }
+
+i.menu-mobile {
+    position: fixed;
+    color: #ffffff;
+    background-color: #aa7444;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 45px;
+    height: 45px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1024px){
+     #header {
+        left: -300px;
+    }
+    i.menu-mobile{
+        display: flex;
+    }
+    section#Inicio{
+        font-size: 3.5rem;
+    }
+    span#subtitle  {
+        margin-right: 0;
+         font-size: 1rem;
+
+    }
+    #main{
+        margin-left: 0;
+    }
+
+}
