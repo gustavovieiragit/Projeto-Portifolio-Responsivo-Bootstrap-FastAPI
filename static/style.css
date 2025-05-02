@@ -83,7 +83,7 @@ html, body{
     margin-left: 300px;
 }
 
-section#Inicio {
+section#inicio {
     background-image: url(./img/fundoport.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,12 +94,12 @@ section#Inicio {
     height: 100vh;
 }
 
-section#Inicio h2{
+section#inicio h2{
     font-size: 6rem;
 
 }
 
-section#Inicio span#subtitle{
+section#inicio span#subtitle{
     margin-right: 8rem;
     font-size: 1.5rem;
 }
@@ -108,11 +108,11 @@ section#Inicio span#subtitle{
     text-shadow: 4px 4px 10px #000000;
 }
 
-section#Inicio div#arraste{
+section#inicio div#arraste{
     width: 9rem;
 }
 
-section#Inicio div#arraste a{
+section#inicio div#arraste a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -134,6 +134,14 @@ i.menu-mobile {
     align-items: center;
 }
 
+.menu-nav-active{
+    overflow: hidden;
+}
+
+.menu-nav-active #header {
+    left: 0;
+}
+
 @media (max-width: 1024px){
      #header {
         left: -300px;
@@ -141,10 +149,10 @@ i.menu-mobile {
     i.menu-mobile{
         display: flex;
     }
-    section#Inicio{
+    section#inicio h2{
         font-size: 3.5rem;
     }
-    span#subtitle  {
+    section#inicio span#subtitle  {
         margin-right: 0;
          font-size: 1rem;
 
